@@ -16,10 +16,12 @@ list-style-type: none;
 li{
 	float: left;
 	 display: block;
+  color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
+
 a:link{
   color:white;
 }
