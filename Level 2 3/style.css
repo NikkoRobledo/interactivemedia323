@@ -13,17 +13,17 @@ list-style-type: none;
   padding: 0;
   overflow: hidden;
 }
-}
 li{
-	float: left;
-	display: block;
-  text-align: center;
+  
+   display: block;
+  
   padding: 16px;
   text-decoration: none;
 }
-a:link{
-  color:white;
-}
-a:visited{
-  color:white;
+#move a:link{color: white;}
+#move a:visited{color: white;}
+#move a:active{color: white;}
+#move li{
+float: left;
+text-align: center;
 }
