@@ -8,49 +8,58 @@
 	body {
 		background: black;
 		 }	
+		 .boxes {
+		 	display: block;
+		 	width: 100%;
+		 }
 
-		 .l-top { 
+		 #l-top { 
 		 	height: 50px;
  			width: 1000px;
   			background-color: dodgerblue;
-		}
-		.l-mid { 
+
+			    }
+		#l-mid { 
 		 	height: 500px;
  			width: 1000px;
   			background-color: dodgerblue;
-		}
-		.l-bottom { 
+  			
+			   }
+		#l-bottom { 
 		 	height: 200px;
  			width: 1000px;
   			background-color: dodgerblue;
-		}
-		
-
-		h3{
-			margin-top:-20px;
-			color: dodgerblue;
-		}
+  			
+			      }
+		#r-top { 
+		 	height: 150px;
+ 			width: 500px;
+  			background-color: dodgerblue;
+  			float: left;
+  			position: relative;
+  			display: inline-block;
+  			margin-left: 5px;
+  			margin-top: 0px;
+			   }
 </style>
 </head>
 
+ <div class="boxes">
+   <ul>
+   		<li></li>
+   		<div id="l-top"></div>
 
+    	<li></li>
+    	<div id="l-mid"></div>
 
-<body>
+     	<li></li>
+      	<div id="l-bottom"></div>
 
-<h1>.</h1>
-<div class="l-top"></div>
+      	<li></li>
+      	<div id="l-bottom"></div>
 
-<h3>.</h3>
-<div class="l-mid"></div>
-
-<h3>.</h3>
-<div class="l-bottom"></div>
-
-<h3>.</h3>
-<div class="l-bottom"></div>
-
-
-
+        <li></li>
+        <div id="r-top"></div>
+ </div>
 	
-</body>
 </html>
