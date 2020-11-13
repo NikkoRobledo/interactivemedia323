@@ -8,58 +8,166 @@
 	body {
 		background: black;
 		 }	
+		 
 		 .boxes {
-		 	display: block;
-		 	width: 100%;
+		 	display: inline-block;
+		 	vertical-align: top;
+
 		 }
 
-		 #l-top { 
+		 .leftcolumn{
+		 	width: 800px;
+			height: 100px;
+			display: inline-block;
+			vertical-align: top;
+		 }
+
+		 .rightcolumn{
+		 	width: 400px;
+			height: 100px;
+			display: inline-block;
+			vertical-align: top;
+		 }
+
+		 .l-top { 
 		 	height: 50px;
- 			width: 1000px;
+ 			width: 700px;
+ 			margin-top:5px;
   			background-color: dodgerblue;
+  			display: inline-block;
 
 			    }
-		#l-mid { 
+		.l-mid { 
 		 	height: 500px;
- 			width: 1000px;
+ 			width: 700px;
+ 			margin-top:10px;
   			background-color: dodgerblue;
+  
   			
 			   }
-		#l-bottom { 
+		.l-bottom { 
 		 	height: 200px;
- 			width: 1000px;
+ 			width: 700px;
+ 			margin-top:10px;
   			background-color: dodgerblue;
+  
   			
 			      }
-		#r-top { 
+		.r-top { 
 		 	height: 150px;
- 			width: 500px;
+ 			width: 450px;
   			background-color: dodgerblue;
-  			float: left;
+  			float: right;
   			position: relative;
   			display: inline-block;
-  			margin-left: 5px;
-  			margin-top: 0px;
+  			margin-left: 50px;
+  			margin-top: 5px;
+  			vertical-align: top;
 			   }
+		.r-bottom {
+			height: 550px;
+ 			width: 450px;
+  			background-color: dodgerblue;
+  			float: right;
+  			position: relative;
+  			display: inline-block;
+  			margin-left: 50px;
+  			margin-top: 10px;
+		       }
+		.top-circle {
+			width: 25px;
+			height: 25px;
+			background: orangered;
+      		border-radius: 50%;
+      		z-index: 1;
+      		position: relative;
+      		margin-top: 20px;
+      		margin-left: -25px;
+			   }
+		.right-top-rect {
+			width: 350px;
+			height: 50px;
+			background: royalblue;
+			border-radius: 10%;
+			z-index: 1;
+			position: relative;
+			margin-top: 45px;
+			   }
+		.first-top-circle {
+			width: 25px;
+			height: 25px;
+			background: orangered;
+      		border-radius: 50%;
+      		z-index: 1;
+      		position: relative;
+      		margin-top: 110px;
+      		margin-left: -25px;
+			   }
+		.other-circles {
+			width: 25px;
+			height: 25px;
+			background: orangered;
+      		border-radius: 50%;
+      		z-index: 1;
+      		position: relative;
+      		margin-top: 45px;
+      		margin-left: -25px;
+			   }
+		.first-top-rect {
+			width: 150px;
+			height: 25px;
+			background: royalblue;
+			border-radius: 10%;
+			z-index: 1;
+			position: relative;
+			margin-top: -445px;
+			margin-left: 220px;
+			   }
+		.other-rects {
+			width: 150px;
+			height: 25px;
+			background: royalblue;
+			border-radius: 10%;
+			z-index: 1;
+			position: relative;
+			margin-top: 45px;
+			margin-left: 220px;
+		}
+
 </style>
 </head>
 
  <div class="boxes">
-   <ul>
-   		<li></li>
-   		<div id="l-top"></div>
+  	<div class="leftcolumn">
+   		<div class="l-top"></div>
+    	<div class="l-mid"></div>
+      	<div class="l-bottom"></div>
+      	<div class="l-bottom"></div>
+   
+ 	</div>
 
-    	<li></li>
-    	<div id="l-mid"></div>
+	<div class="rightcolumn">
+		<div class="r-top"></div>
+			<div class="top-circle"></div>
+			  <div class="right-top-rect"></div>
+		<div class="r-bottom"></div>
+			<div class="first-top-circle"></div>
+				<div class="other-circles"></div>
+				<div class="other-circles"></div>
+				<div class="other-circles"></div>
+				<div class="other-circles"></div>
+				<div class="other-circles"></div>
+				<div class="other-circles"></div>
+			<div class="first-top-rect"></div>
+				<div class="other-rects"></div>
+				<div class="other-rects"></div>
+				<div class="other-rects"></div>
+				<div class="other-rects"></div>
+				<div class="other-rects"></div>
+				<div class="other-rects"></div>
 
-     	<li></li>
-      	<div id="l-bottom"></div>
-
-      	<li></li>
-      	<div id="l-bottom"></div>
-
-        <li></li>
-        <div id="r-top"></div>
+	</div>
  </div>
 	
+
 </html>

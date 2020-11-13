@@ -1,0 +1,58 @@
+header {
+  background-color: navy;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+}
+
+ul {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+   display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#move a:link{color: white;}
+#move a:visited{color: white;}
+#move a:active{color: white;}
+
+ #one 
+      {border: 1px dotted black;
+        float: right;
+}
+ 
+ #two {border: 2px dotted black;
+        float: right;
+}
+ 
+ #three {border: 3px dotted black;
+        float: right;
+}
+ 
+ #four {border: 4px dotted black;
+        float: right;
+}
+ 
+ #five {border: 5px dotted black;
+        float: right;
+}
+ 
+ #six {border: 6px dotted black;
+        float: right;
+}
+ 
+ #seven {border: 7px dotted black;
+        float: right;
+}
+ 
+ #eight {border: 8px dotted black;
+        float: right;
+}
