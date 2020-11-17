@@ -25,53 +25,67 @@ li{
 #move a:active{color: white;}
 
  #one {
-        font-family: cursive;
-        transform: rotate(270deg);
-        float: right;
-        padding-right: 500px;
-        padding-top: 450px;
-        display: inline-block;
-        }
- #two {
-        font-family: helvetica;
-        font-style: italic;
-        float: right;
-        padding-right: 500px;
-        padding-top: 450px;
-        display: inline-block;
-        }
- #three {font-family: helvetica;
-        font-style: italic;
-        float: top;
-        padding-right: 500px;
-        padding-top: 450px;
-        display: inline-block;
-        font-family: Avenir;
-        text-transform: uppercase;
-
-        }
- #four {text-align: center;
-        font-family: georgia, serif;
-        
-        }
- #five {text-align: center;
-        font-family: palatino linotype;
+        font-family: impact;
+        font-size: 100px;
         float: left;
         padding-right: 500px;
         padding-top: 450px;
         display: inline-block;
         }
- #six {text-align: center;
-        font-family: times new roman, times, serif;
-        font-style: italic;
-        }
- #seven {text-align: center;
-        font-family: Tahoma;
+ #two {
         
+        font-size: 35px;
+        
+        float: left;
+        padding-right: 500px;
+        padding-top: 450px;
+        display: inline-block;
         }
- #eight {text-align: center;
-        font-family: Gabriola;
-        padding-bottom: 10px;
+ #three {
+        
+        float: left;
+        font-size: 35px;
+        padding-right: 500px;
+        padding-top: 450px;
+        display: inline-block;
+        
+       
+
+        }
+ #four {
+        font-size: 35px;
+        
+        float: left;
+        }
+ #five {
+        
+        float: left;
+        font-size: 35px;
+        padding-right: 500px;
+        padding-top: 450px;
+        display: inline-block;
+        }
+ #six {
+        
+        font-size: 35px;
+        padding-right: 500px;
+        float: left;
+        padding-top: 50px;
+        }
+ #seven {
+        font-size: 35px;
+        display: inline-block;
+        padding-right: 200px;
+        padding-top: 450px;
+        float: right;
+
+        }
+ #eight {
+        
+        padding-bottom: 30px;
+        padding-right: 100px;
+        font-size: 35px;
+        float: left;
+        padding-top: 300px;
         }
 
- p{font-size: 35px;}
