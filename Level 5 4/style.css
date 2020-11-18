@@ -1,0 +1,123 @@
+header {
+  background-color: navy;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+}
+
+ul {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+   display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#move a:link{color: white;}
+#move a:visited{color: white;}
+#move a:active{color: white;}
+
+ #one {text-align: left;
+        font-family: Gabriola;
+        font-style: oblique;
+        text-transform: uppercase;
+        color:white;
+        font-size: 50px;
+        animation-name: odd;
+        animation-duration: 10s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite
+        }
+ #two {text-align: center;
+        font-family: Gabriola;
+        font-style: oblique;
+        text-transform: uppercase;
+        color:white;
+        font-size: 50px;
+        animation-name: odd;
+        animation-duration: 10s;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+        }
+ #three {text-align: right;
+        font-family: Gabriola;
+        font-style: oblique;
+        text-transform: uppercase;
+        color:white;
+        font-size: 50px;
+        animation-name: odd;
+        animation-duration: 10s;
+        animation-delay: 6s;
+        animation-iteration-count: infinite
+        }
+ #four {text-align: right;
+        font-family: Gabriola;
+        font-style: oblique;
+        text-transform: uppercase;
+        color:white;
+        font-size: 50px;
+        animation-name: odd;
+        animation-duration: 10s;
+        animation-delay: 8s;
+        animation-iteration-count: infinite;
+        }
+ #five {text-align: center;
+        font-family: Gabriola;
+        font-style: oblique;
+        text-transform: uppercase;
+        color:white;
+        font-size: 50px;
+        animation-name: odd;
+        animation-duration: 10s;
+        animation-delay: 10s;
+        animation-iteration-count: infinite
+        }
+ #six {text-align: left;
+        font-family: Gabriola;
+        font-style: oblique;
+        color:white;
+        text-transform: uppercase;
+        font-size: 50px;
+        animation-name: odd;
+        animation-duration: 10s;
+        animation-delay: 12s;
+        animation-iteration-count: infinite;
+        }
+ #seven {text-align: left;
+        font-family: Gabriola;
+        font-style: oblique;
+        text-transform: uppercase;
+        color:white;
+        font-size: 50px;
+        animation-name: odd;
+        animation-duration: 10s;
+        animation-delay: 14s;
+        animation-iteration-count: infinite
+        }
+ #eight {text-align: center;
+        font-family: Gabriola;
+        font-style: oblique;
+        padding-bottom: 30px;
+        color:white;
+        text-transform: uppercase;
+        font-size: 50px;
+        animation-name: odd;
+        animation-duration: 10s;
+        animation-delay: 16s;
+        animation-iteration-count: infinite;
+        }
+
+ 
+
+@keyframes odd {
+  0%   {color: white;}
+  50%  {color: black;}
+  100% {color: white;}
+

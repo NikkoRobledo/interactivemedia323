@@ -1,0 +1,63 @@
+header {
+  background-color: navy;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+}
+
+ul {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+   display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#move a:link{color: white;}
+#move a:visited{color: white;}
+#move a:active{color: white;}
+
+ #one {text-align: center;
+       font-size: 100px;
+        padding-bottom: 1000px;
+        }
+ #two {text-align: center;
+        font-size: 100px;
+        padding-bottom: 1000px;
+        }
+ #three {text-align: center;
+        font-size: 100px;
+        padding-bottom: 1000px;
+        }
+ #four {text-align: center;
+        font-size: 100px;
+        padding-bottom: 1000px;
+        
+        }
+ #five {text-align: center;
+        font-size: 100px;
+        padding-bottom: 1000px;
+        
+        }
+ #six {text-align: center;
+        font-size: 100px;
+        padding-bottom: 1000px;
+        }
+ #seven {text-align: center;
+        font-size: 100px;
+        padding-bottom: 1000px;
+        
+        }
+ #eight {text-align: center;
+        font-size: 100px;
+        padding-bottom: 1000px;
+        }
+
+ 
