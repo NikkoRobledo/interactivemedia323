@@ -1,0 +1,139 @@
+header {
+  background-color: navy;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  bottom: 0;
+}
+
+ul {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+   display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#move a:link{color: white;}
+#move a:visited{color: white;}
+#move a:active{color: white;}
+
+ #one {text-align: left;
+       font-size: 50px;
+        padding-bottom: 1000px;
+        padding-top: 250px;
+
+        }
+ #two {text-align: center;
+        font-size: 20px;
+        padding-bottom: 1000px;
+        padding-top: 250px;
+        }
+ #three {text-align: center;
+        font-size: 40px;
+        padding-bottom: 1000px;
+        padding-top: 250px;
+        }
+ #four {text-align: right;
+        font-size: 100px;
+        padding-bottom: 1000px;
+        padding-top: 250px;
+        }
+ #five {text-align: left;
+        font-size: 10px;
+        padding-bottom: 1000px;
+        padding-top: 100px;
+        }
+ #six {text-align: center;
+        font-size: 200px;
+        padding-bottom: 1000px;
+        padding-top: 250px;
+        }
+ #seven {text-align: right;
+        font-size: 25px;
+        padding-bottom: 800px;
+        padding-top: 250px;
+        }
+ #eight {text-align: right;
+        font-size: 220px;
+        padding-bottom: 1000px;
+        padding-top: 250px;
+        }
+
+ a:link{color: white;}
+ a:visited{color: white;}
+ a:active{color: white;}
+
+ #one a:hover{
+              text-decoration: none;
+              animation-name: odd;
+              animation-duration: 2s;
+              animation-iteration-count: infinite
+            }
+ 
+ 
+
+
+ #two a:hover{color: navy;
+ text-decoration: none;
+              animation-name: odd;
+              animation-duration: 2s;
+              animation-iteration-count: infinite}
+ 
+
+ #three a:hover{color: navy;
+ text-decoration: none;
+              animation-name: odd;
+              animation-duration: 2s;
+              animation-iteration-count: infinite}
+ 
+
+ #four a:hover{color: navy;
+ text-decoration: none;
+              animation-name: odd;
+              animation-duration: 2s;
+              animation-iteration-count: infinite}
+ 
+
+ #five a:hover{color: navy;
+ text-decoration: none;
+              animation-name: odd;
+              animation-duration: 2s;
+              animation-iteration-count: infinite}
+ 
+
+ #six a:hover{color: navy;
+ text-decoration: none;
+              animation-name: odd;
+              animation-duration: 2s;
+              animation-iteration-count: infinite}
+ 
+
+ #seven a:hover{color: navy;
+ text-decoration: none;
+              animation-name: odd;
+              animation-duration: 2s;
+              animation-iteration-count: infinite}
+ 
+
+ #eight a:hover{color: navy;
+ text-decoration: none;
+              animation-name: odd;
+              animation-duration: 2s;
+              animation-iteration-count: infinite}
+ 
+
+ @keyframes odd {
+  0%   {color: red;}
+  10%  {color: purple;}
+  25%  {color: navy;}
+  50%  {color: blue;}
+  75%  {color: green;}
+  90%  {color: yellow;}
+  100% {color: orange;}
