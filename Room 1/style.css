@@ -1,0 +1,10 @@
+body {
+  background-color: black;
+}
+
+ a:link {color: white;}
+ 	 a:visited {color: white;}
+ 	 a:active {color: white;}
+ 	 a{
+ 	 	text-decoration: none;
+ 	 }
